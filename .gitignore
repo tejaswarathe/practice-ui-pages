@@ -1,0 +1,21 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore Tailwind CSS generated files
+public/css/*.css
+!public/css/style.css  # Keep the final CSS file if needed
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore lock files
+package-lock.json
+yarn.lock
