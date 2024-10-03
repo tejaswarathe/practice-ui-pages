@@ -6,8 +6,10 @@
     <title>Yoututbe Home Page</title>
     <link href="../styles/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="flex flex-row justify-between h-16">
+  <body class="h-[3000px] pl-20 pt-16">
+    <div
+      class="flex flex-row justify-between h-14 bg-white fixed top-0 left-0 right-0 border-b-2 z-50"
+    >
       <div class="flex flex-row items-center">
         <img
           class="h-6 ml-6 mr-5"
@@ -44,22 +46,46 @@
       >
         <img class="h-8 w-8" src="../assets/icons/upload.svg" />
         <img class="h-8 w-8" src="../assets/icons/youtube-apps.svg" />
-        <img class="h-8 w-8" src="../assets/icons/notifications.svg" />
+        <div class="relative">
+          <img class="h-8 w-8" src="../assets/icons/notifications.svg" />
+          <div
+            class="absolute -top-1 -right-[6px] bg-red-700 text-white text-xs px-[7px] py-[3px] rounded-full"
+          >
+            3
+          </div>
+        </div>
         <img
           class="h-9 w-19 rounded-full"
           src="../assets/channels/my-channel.jpeg"
         />
       </div>
     </div>
-
+    <div
+      class="felx flex-col justify-between bg-pink-300 w-[68px] fixed top-14 bottom-0 left-0 pt-8"
+    >
+      <div class="flex flex-col items-center">
+        <img class="w-8 h-auto" src="../assets/icons/home.svg" />
+        <p class="font-thin text-sm">Home</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img class="w-8 h-auto" src="../assets/icons/explore.svg" />
+        <p class="font-thin text-sm">Explore</p>
+      </div>
+    </div>
     <div class="video-container grid grid-rows-3 gap-10">
       <div class="grid grid-cols-[1fr_1fr_1fr] gap-10">
         <div class="w-full">
-          <div>
+          <div class="relative" class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-1.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              14:20
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -79,11 +105,17 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-2.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              8:22
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -101,12 +133,19 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-3.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              9:13
+            </div>
           </div>
+
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
               <img
@@ -127,11 +166,17 @@
       </div>
       <div class="grid grid-cols-[1fr_1fr_1fr] gap-10">
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-4.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              22:09
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -151,11 +196,17 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-5.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              11:17
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -175,11 +226,17 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-6.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              19:59
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -201,11 +258,17 @@
       </div>
       <div class="grid grid-cols-[1fr_1fr_1fr] gap-10">
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-7.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              10:13
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -223,11 +286,17 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-8.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              7:12
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
@@ -247,11 +316,17 @@
           </div>
         </div>
         <div class="w-full">
-          <div>
+          <div class="relative">
             <img
+              class="w-full"
               src="../assets/thumbnails/thumbnail-9.webp"
               alt="mkbhd Video"
             />
+            <div
+              class="absolute bottom-2 right-2 px-1 py-1 bg-black text-white font-medium rounded-sm"
+            >
+              13:17
+            </div>
           </div>
           <div class="grid grid-cols-[50px_1fr] mt-4">
             <div>
