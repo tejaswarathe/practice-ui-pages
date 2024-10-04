@@ -29,22 +29,42 @@
           placeholder="Search..."
         />
         <button
-          class="bg-slate-100 h-10 w-16 px-4 mr-3 border border-solid border-gray-300 rounded-sm shadow-inner"
+          class="bg-slate-100 h-10 w-16 px-4 mr-3 border border-solid border-gray-300 rounded-sm shadow-inner relative group flex flex-col justify-center items-center"
         >
           <img class="h-8 w-8" src="../assets/icons/search.svg" alt="search" />
+          <p
+            class="py-2 px-2 rounded-sm absolute -bottom-12 text-xs text-white font-light bg-gray-700 opacity-0 group-hover:opacity-85 transition-opacity ease-in-out pointer-events-none"
+          >
+            Search
+          </p>
         </button>
-        <button class="h-10 w-10 px-2 bg-gray-100 border-none rounded-full">
+        <button
+          class="h-10 w-10 px-2 bg-gray-100 border-none rounded-full relative group flex flex-col justify-center items-center"
+        >
           <img
             class="h-8 w-8"
             src="../assets/icons/voice-search-icon.svg"
             alt="voice"
           />
+          <p
+            class="py-2 px-2 rounded-sm absolute -bottom-12 -left-14 -right-14 text-xs text-white font-light bg-gray-700 opacity-0 group-hover:opacity-85 transition-opacity ease-in-out pointer-events-none"
+          >
+            Search with your voice
+          </p>
         </button>
       </div>
       <div
         class="flex flex-row flex-shrink-0 w-56 mr-5 justify-between items-center"
       >
-        <img class="h-8 w-8" src="../assets/icons/upload.svg" />
+        <div class="relative group cursor-pointer flex flex-col items-center">
+          <img class="h-8 w-8" src="../assets/icons/upload.svg" />
+          <p
+            class="py-2 px-2 rounded-sm absolute -bottom-12 text-xs text-white font-light bg-gray-700 opacity-0 group-hover:opacity-85 transition-opacity ease-in-out pointer-events-none"
+          >
+            Create
+          </p>
+        </div>
+
         <img class="h-8 w-8" src="../assets/icons/youtube-apps.svg" />
         <div class="relative">
           <img class="h-8 w-8" src="../assets/icons/notifications.svg" />
