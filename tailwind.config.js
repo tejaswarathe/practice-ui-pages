@@ -13,7 +13,7 @@ module.exports = {
         darkYellow: "#ffcb6b",
         white: "#ffffff",
         black: "#121212",
-        grey: "#efefef",
+        grey: "#DBDBDB",
       },
     },
   },
